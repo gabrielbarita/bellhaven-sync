@@ -1,0 +1,2 @@
+# Alternative to GitHub Actions: run on a server at 6:00 AM daily
+0 6 * * * cd /path/to/bellhaven && CRM_TOKEN=xxx /usr/bin/python3 match.py --scrape >> logs/sync.log 2>&1
